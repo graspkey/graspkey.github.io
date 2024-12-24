@@ -12,7 +12,9 @@
             document.write("</br>--------->>" + a); //获得属性
         }
     }
-
+    _mqqWebViewJSinterface.invoke('device', 'getDeviceInfo', function(data){
+        alert(data);
+    });
 </script>
 
 <script>
